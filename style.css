@@ -2,13 +2,7 @@
     font-family: 'Focus Sans';
     src: url('https://github.com/LeventeHudak/vfonts/raw/master/FocusSansGX.ttf');
  }
-body {
-      background-image: url("hatter.png");
-      background-repeat: no-repeat;
-      background-attachment: fixed;  
-      background-size: cover;
-
-}
+ 
 .doboz {
     font-family: "Focus Sans";  
     font-variation-settings: 'wght' 400, 'wdth' 1;
