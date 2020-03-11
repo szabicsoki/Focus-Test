@@ -1,0 +1,34 @@
+@font-face {
+    font-family: 'Focus Sans';
+    src: url('https://github.com/LeventeHudak/vfonts/raw/master/FocusSansGX.ttf');
+ }
+
+.doboz {
+    background-image: url('hastter.png');
+    font-family: "Focus Sans";  
+    font-variation-settings: 'wght' 400, 'wdth' 1;
+    font-size: 24px;
+    line-height: 44px;
+    letter-spacing: 1.8px;
+    padding: 200px;
+    padding-top: 100px;
+    color: #e8e8e8;
+}
+
+.test1 {
+    font-family: "Focus Sans";
+    font-variation-settings: 'wght' 900, 'wdth' 10;
+    transition: all 350ms;
+    color: black;
+}
+
+.test2 {
+    font-family: "Focus Sans";
+    font-variation-settings: 'wght' 400, 'wdth' 5;
+    transition: all 350ms;
+    color: rgb(133, 133, 133);
+}
+
+.test3 {
+  cursor: none;
+}
