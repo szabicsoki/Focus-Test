@@ -3,8 +3,10 @@
     src: url('https://github.com/LeventeHudak/vfonts/raw/master/FocusSansGX.ttf');
  }
 body {
-      background-image: url('hatter.png');
-      /* background-color: black; */
+      background-image: url("hatter.png");
+      background-repeat: no-repeat;
+      background-attachment: fixed;  
+      background-size: cover;
 
 }
 .doboz {
