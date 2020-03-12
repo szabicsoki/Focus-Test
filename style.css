@@ -3,7 +3,7 @@
     src: url('https://github.com/LeventeHudak/vfonts/raw/master/FocusSansGX.ttf');
  }
  
-.doboz {
+body {
     font-family: "Focus Sans";  
     font-variation-settings: 'wght' 400, 'wdth' 1;
     font-size: 24px;
@@ -12,6 +12,13 @@
     padding: 200px;
     padding-top: 100px;
     color: #e8e8e8;
+    
+}
+::selection {
+  background: #e8e8e8; 
+}
+.doboz:hover::first-line {
+    color: #888888;
 }
 
 .test1 {
@@ -25,7 +32,7 @@
     font-family: "Focus Sans";
     font-variation-settings: 'wght' 400, 'wdth' 5;
     transition: all 350ms;
-    color: rgb(133, 133, 133);
+    color: #666666;
 }
 
 .test3 {
